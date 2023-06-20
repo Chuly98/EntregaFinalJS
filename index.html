@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHOA | Deportes</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/logo2.png" alt="logo" width="95" height="70">MHOA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Informacion">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+                <div id="carrito">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="numeroCarrito">0</span>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="px-2 search" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h1>Si Algun Dia Bajo La Mirada Sera Para Admirar Mis Zapatillas</h1>
+                    <button class="btn1 mt-3"><a href="#destacados">Ver Más!</a></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <h2 class="titulo">EQUIPATE CON LAS MEJORES MARCAS</h2>
+
+    <section class="new">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-lg-7 m-auto">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <img src="./img/adidas.png" class="img-luid" alt="adidas" width="90" height="70">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./img/puma.png" class="img-luid" alt="puma" width="90" height="70">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./img/new-balance.png" class="img-luid" alt="balance" width="90" height="70">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./img/nike.png" class="img-luid" alt="nike" width="90" height="75">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p id="destacados">Productos Destacados</p>
+
+    <main id="contenedor">
+        <div id="contenedorTarjetas">
+
+        </div>
+    </main>
+
+
+    <section class="about">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h2 class="tituloInfo" id="Informacion">INFORMACION DE MHOA</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./img/nike-info.jpg" class="img-fluid md-3 imgInfo" alt="infoNike">
+                    <h2>Calidad Del Producto</h2>
+                    <p>Una excelente calidad de tela y de comodida de tus pies
+                        con una garantia del producto unica en MHOA.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./img/adidas-info.jpg" class="img-fluid md-3 imgInfo" alt="infoAdidas">
+                    <h2>Elasticidad Del Producto</h2>
+                    <p>Una elasticidad unica para tus pies y se adapta muy
+                        comodamente a tu rutina de cada dia.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./img/puma-info.jpg" class="img-fluid md-3 imgInfo" alt="infoPuma">
+                    <h2>Resistencia Del Producto</h2>
+                    <p>Una resistencia excelente muy duradera para todos los
+                        terrenos y climas del dia.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <h2 id="Contacto">Contacto</h2>
+                    <p>Mandanos Un Email Con Todas Tus Dudas,
+                        Estamos Al Servicio De Nuestros Clientes.</p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-9 m-auto">
+                    <div class="row">
+                        <div class="col-lg-4 m-auto text-center">
+                            <h2>UBICACION</h2>
+                            <P>Cordoba Capital.Argentina</P>
+
+
+                            <h2>TELEFONO</h2>
+                            <P>0351-15448910</P>
+
+
+                            <h2>EMAIL</h2>
+                            <P>mhoashop@gmail.com</P>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="news py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-9 m-auto text-center">
+                        <h3>Envianos Un Email Con Tus Dudas.</h3>
+                        <input type="text" class="px-3" placeholder="Introduce tu correo electrónico">
+                        <button class="btn2">Enviar</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-11">
+                        <div class="row">
+                            <div class="col-lg-3 py-3 m-auto text-center">
+                                <h3>REDES SOCIALES</h3>
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

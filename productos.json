@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nombre": "Zapatillas Nike-Black",
+        "precio": 5999.99,
+        "stock": 10,
+        "urlImg": "./img/productos1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Zapatillas Nike-New",
+        "precio": 8799.99,
+        "stock": 5,
+        "urlImg": "./img/productos2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Zapatillas Nike-Running",
+        "precio": 9329.99,
+        "stock": 15,
+        "urlImg": "./img/productos3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Zapatillas Adidas-Blancas",
+        "precio": 8949.99,
+        "stock": 8,
+        "urlImg": "./img/productos4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Zapatillas Adidas-Running Rosa",
+        "precio": 4999.99,
+        "stock": 3,
+        "urlImg": "./img/productos5.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Zapatillas Adidas-Running Black",
+        "precio": 7699.99,
+        "stock": 20,
+        "urlImg": "./img/productos6.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Zapatillas Puma-Marrones",
+        "precio": 9299.99,
+        "stock": 6,
+        "urlImg": "./img/productos7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Zapatillas Puma-Running",
+        "precio": 4699.99,
+        "stock": 12,
+        "urlImg": "./img/productos8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Zapatillas Puma-Running Blancas",
+        "precio": 6829.99,
+        "stock": 7,
+        "urlImg": "./img/productos9.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Zapatillas NewBalance-New",
+        "precio": 7599.99,
+        "stock": 2,
+        "urlImg": "./img/productos10.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Zapatillas NewBalance-Azul",
+        "precio": 8399.99,
+        "stock": 9,
+        "urlImg": "./img/productos11.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Zapatillas NewBalance",
+        "precio": 9199.99,
+        "stock": 9,
+        "urlImg": "./img/productos12.jpg"
+    }
+]
